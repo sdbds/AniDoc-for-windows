@@ -104,6 +104,8 @@ You should input a color video as `--control_image` and our code will extract sk
 
 Currently our model expects 14 frames video as input, so if you want to colorize your own lineart sequence, you should preprocess it into 14 frames. You can use `process_video_to_14frame.py` to preprocess your own video, it will select 14 frames uniformly.
 
+However, in our test, we found that in most cases our model works well for more than 14 frames (72 frames). If you want to test our model's performance on arbitrary input frames, you can slightly modify the inference code by replace the `14` and `args.num_frames` with the input video frame number.
+
 ## Hugging face demo
 [fffiloni](https://huggingface.co/fffiloni) builds a quick gradio demo for AniDoc, at [here](https://huggingface.co/spaces/fffiloni/AniDoc), Thanks for his contribution!
 
