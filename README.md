@@ -100,7 +100,7 @@ bash  scripts_infer/anidoc_inference.sh
 
 We provide some test cases in  `data_test` folder. You can also try our model with your own data. You can change the lineart sequence and corresponding character design in the script `anidoc_inference.sh`, where `--control_image` refers to the lineart sequence and `--ref_image` refers to the character design. 
 
-Currently our model expects 14 frames video as input, so if you want to colorize your own lineart sequence, you should preprocess it into 14 frames.
+Currently our model expects 14 frames video as input, so if you want to colorize your own lineart sequence, you should preprocess it into 14 frames. You can use `process_video_to_14frame.py` to preprocess your own video, it will select 14 frames uniformly.
 
 
 
