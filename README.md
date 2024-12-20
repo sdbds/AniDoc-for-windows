@@ -1,7 +1,7 @@
 # AniDoc: Animation Creation Made Easier
 <a href="https://yihao-meng.github.io/AniDoc_demo/"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=blue"></a>
 <a href="https://arxiv.org/pdf/2412.14173"><img src="https://img.shields.io/badge/arXiv-2404.12.14173-b31b1b.svg"></a>
-<a href='[https://huggingface.co/spaces/fffiloni/AniDoc](https://huggingface.co/spaces/fffiloni/AniDoc)'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face%20-Demo-blue'></a><br>
+<a href='https://huggingface.co/spaces/fffiloni/AniDoc'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face%20-Demo-blue'></a><br>
 
 
 https://github.com/user-attachments/assets/99e1e52a-f0e1-49f5-b81f-e787857901e4
@@ -105,7 +105,7 @@ You should input a color video as `--control_image` and our code will extract sk
 Currently our model expects 14 frames video as input, so if you want to colorize your own lineart sequence, you should preprocess it into 14 frames. You can use `process_video_to_14frame.py` to preprocess your own video, it will select 14 frames uniformly.
 
 ## Hugging face demo
-[fffiloni](https://huggingface.co/fffiloni) build a quick gradio demo for AniDoc, at [here](https://huggingface.co/spaces/fffiloni/AniDoc), Thanks for his contribution!
+[fffiloni](https://huggingface.co/fffiloni) builds a quick gradio demo for AniDoc, at [here](https://huggingface.co/spaces/fffiloni/AniDoc), Thanks for his contribution!
 
 Because our model expects 14 frames video as input, when you load a control video more than 14 frames, it will raise error. For now you can use `process_video_to_14frame.py` to preprocess your own video, it will select 14 frames uniformly. We will update the gradio demo to automate this soon.
 
