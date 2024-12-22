@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES=2 python scripts_infer/anidoc_inference.py --all_sketch --matching --tracking --control_image 'data_test/sample4_2.mp4' --ref_image 'data_test/sample4.png' --output_dir 'results' --max_point 10
+CUDA_VISIBLE_DEVICES=0 python scripts_infer/anidoc_inference.py --all_sketch --matching --tracking --control_image 'data_test/sample4.mp4' --ref_image 'data_test/sample4.png' --output_dir 'results' --max_point 10
