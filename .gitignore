@@ -9,3 +9,7 @@ _C.*
 outputs/*
 checkpoints/*.pt
 demo/backend/checkpoints/*.pt
+pretrained_weights/
+huggingface/
+*.pth
+*.gif
