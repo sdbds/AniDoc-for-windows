@@ -1,7 +1,7 @@
-# AniDoc: Animation Creation Made Easier
+# AniDoc: Animation Creation Made Easier 
 <a href="https://yihao-meng.github.io/AniDoc_demo/"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=blue"></a>
 <a href="https://arxiv.org/pdf/2412.14173"><img src="https://img.shields.io/badge/arXiv-2404.12.14173-b31b1b.svg"></a>
-
+<a href="https://www.apache.org/licenses/LICENSE-2.0.txt"><img src="https://img.shields.io/badge/License-Apache-yellow"></a>
 
 
 https://github.com/user-attachments/assets/99e1e52a-f0e1-49f5-b81f-e787857901e4
@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/99e1e52a-f0e1-49f5-b81f-e787857901e4
 **Strongly recommend seeing our [demo page](https://yihao-meng.github.io/AniDoc_demo).**
 
 
-## Showcases:
+## Showcase
 <p style="text-align: center;">
   <img src="figure/showcases/image1.gif" alt="GIF" />
 </p>
@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/99e1e52a-f0e1-49f5-b81f-e787857901e4
   <img src="figure/showcases/image4.gif" alt="GIF" />
 </p>
 
-## Flexible Usage:
+## Flexible Usage
 ### Same Reference with Varying Sketches
 <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
 <img src="figure/showcases/image29.gif" alt="GIF Animation">
@@ -67,7 +67,7 @@ https://github.com/user-attachments/assets/99e1e52a-f0e1-49f5-b81f-e787857901e4
 - [ ] Release the sparse sketch setting interpolation code.
 
 
-## Requirements:
+## Requirements
 The training is conducted on 8 A100 GPUs (80GB VRAM), the inference is tested on RTX 5000 (32GB VRAM). In our test, the inference requires about 14GB VRAM.
 ## Setup
 ```
